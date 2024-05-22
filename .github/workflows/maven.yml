@@ -37,4 +37,4 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-      run: mvn -B verify sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=suryaaaulia -Dsonar.projectKey=SuryaaAulia_MKPL-Continuous-Integration
+      run: mvn -B verify sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=suryaaaulia-1 -Dsonar.projectKey=SuryaaAulia_MKPL-Continuous-Integration
